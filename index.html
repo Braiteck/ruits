@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#1867C0">
+		<meta name="theme-color" content="#1867C0">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="close"></button>
+
+					<div class="mob_scroll">
+						<div class="info">
+							<div class="cont row">
+								<div class="logo">
+									<img src="images/logo.svg" alt="">
+								</div>
+
+								<div class="location">
+									<div class="city">г. Москва</div>
+									<div class="address">ул. Правды 8, к 27 офис 201</div>
+								</div>
+
+								<div class="location">
+									<div class="city">г. Новосибирск</div>
+									<div class="address">ул. Красный проспект 163/2, офис 308</div>
+								</div>
+
+								<div class="contacts">
+									<div class="phone">
+										<a href="tel:84996477105">8 (499) 647 71 05</a>
+									</div>
+
+									<div class="messengers">
+										<a href="/">
+											<img src="images/ic_whatsapp.png" alt="">
+										</a>
+
+										<a href="/">
+											<img src="images/ic_telegram.svg" alt="">
+										</a>
+									</div>
+								</div>
+
+								<div class="email">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+									<span>sales@ruits.ru</span>
+
+									<button class="copy_btn" data-clipboard-text="sales@ruits.ru">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_copy"></use></svg>
+									</button>
+
+									<div class="copy_success">Скопировано</div>
+								</div>
+
+								<div class="cart">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+									<a href="/">Ваш заказ</a>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="bottom">
+							<div class="cont row">
+								<div class="catalog modal_cont">
+									<button class="btn mini_modal_btn" data-modal-id="#catalog_modal">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_burger"></use></svg>
+										<span>Каталог оборудования</span>
+									</button>
+
+									<div class="mini_modal" id="catalog_modal">
+										<div class="row">
+											<div class="col">
+												<div class="title">Серверы</div>
+
+												<div class="items">
+													<div><a href="/">Сервер Аквариус T40 S25</a></div>
+													<div><a href="/">Сервер Аквариус E30 S11</a></div>
+													<div><a href="/">Сервер Аквариус E40 S15</a></div>
+													<div><a href="/">Сервер Аквариус E40 S35</a></div>
+												</div>
+											</div>
+
+											<div class="col">
+												<div class="title">ПК</div>
+
+												<div class="items">
+													<div><a href="/">Aquarius Std S20 S18</a></div>
+													<div><a href="/">Aquarius Std S20 K12</a></div>
+													<div><a href="/">Aquarius Pro W60 K12</a></div>
+													<div><a href="/">Aquarius Pro G40 S57</a></div>
+												</div>
+											</div>
+
+											<div class="col">
+												<div class="title">Серверы</div>
+
+												<div class="items">
+													<div><a href="/">Сервер Аквариус T40 S25</a></div>
+													<div><a href="/">Сервер Аквариус E30 S11</a></div>
+													<div><a href="/">Сервер Аквариус E40 S15</a></div>
+													<div><a href="/">Сервер Аквариус E40 S35</a></div>
+												</div>
+											</div>
+
+											<div class="col">
+												<div class="title">ПК</div>
+
+												<div class="items">
+													<div><a href="/">Aquarius Std S20 S18</a></div>
+													<div><a href="/">Aquarius Std S20 K12</a></div>
+													<div><a href="/">Aquarius Pro W60 K12</a></div>
+													<div><a href="/">Aquarius Pro G40 S57</a></div>
+												</div>
+											</div>
+
+											<div class="col">
+												<div class="title">Планшеты</div>
+
+												<div class="items">
+													<div><a href="/">Aquarius Cmp NS220</a></div>
+													<div><a href="/">Aquarius Cmp NS208</a></div>
+													<div><a href="/">Aquarius Cmp NS595</a></div>
+													<div><a href="/">Aquarius Cmp NE315</a></div>
+												</div>
+											</div>
+
+											<div class="col">
+												<div class="title">СХД Аквариус</div>
+
+												<div class="items">
+													<div><a href="/">Системы начального уровня (entry-level)</a></div>
+													<div><a href="/">Системы среднего класса (mid-range)</a></div>
+													<div><a href="/">Модули расширения JBOD</a></div>
+												</div>
+											</div>
+
+											<div class="col">
+												<div class="title">Планшеты</div>
+
+												<div class="items">
+													<div><a href="/">Aquarius Cmp NS220</a></div>
+													<div><a href="/">Aquarius Cmp NS208</a></div>
+													<div><a href="/">Aquarius Cmp NS595</a></div>
+													<div><a href="/">Aquarius Cmp NE315</a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="search">
+									<form action="">
+										<input type="text" name="" value="" class="input" placeholder="Название оборудования">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										</button>
+
+										<div class="datalist">
+											<a href="/" class="item">
+												<div class="name">Сервер Аквариус T40 S25</div>
+												<div class="desc">Один процессор серии E3-1200v3/Pentium или i3 укороченный</div>
+											</a>
+
+											<a href="/" class="item">
+												<div class="name">Сервер Аквариус T40 S25</div>
+												<div class="desc">Один процессор серии E3-1200v3/Pentium или i3 укороченный</div>
+											</a>
+										</div>
+									</form>
+								</div>
+
+								<nav class="menu row">
+									<div class="item">
+										<a href="/">Новости</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Статьи</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Видео</a>
+									</div>
+
+									<div class="item">
+										<a href="/">О компании</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Контакты</a>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="info">
+						<div class="cont row">
+							<div class="logo">
+								<img src="images/logo.svg" alt="">
+							</div>
+
+							<div class="contacts">
+								<div class="phone">
+									<a href="tel:84996477105">8 (499) 647 71 05</a>
+								</div>
+
+								<div class="messengers">
+									<a href="/">
+										<img src="images/ic_whatsapp.png" alt="">
+									</a>
+
+									<a href="/">
+										<img src="images/ic_telegram.svg" alt="">
+									</a>
+								</div>
+							</div>
+
+							<div class="email">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+								<a href="mailto:sales@ruits.ru">sales@ruits.ru</a>
+
+								<button class="copy_btn" data-clipboard-text="sales@ruits.ru">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_copy"></use></svg>
+								</button>
+
+								<div class="copy_success">Скопировано</div>
+							</div>
+
+							<div class="cart">
+								<a href="/">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+								</a>
+							</div>
+
+							<button class="mob_menu_btn">
+								<span></span>
+							</button>
+						</div>
+					</div>
+
+					<div class="search">
+						<form action="">
+							<input type="text" name="" value="" class="input" placeholder="Название оборудования">
+
+							<button type="submit" class="submit_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							</button>
+
+							<div class="datalist">
+								<a href="/" class="item">
+									<div class="name">Сервер Аквариус T40 S25</div>
+									<div class="desc">Один процессор серии E3-1200v3/Pentium или i3 укороченный</div>
+								</a>
+
+								<a href="/" class="item">
+									<div class="name">Сервер Аквариус T40 S25</div>
+									<div class="desc">Один процессор серии E3-1200v3/Pentium или i3 укороченный</div>
+								</a>
+							</div>
+						</form>
+					</div>
+				</section>
+
+
+				<section class="first_section">
+					<div class="cont row">
+						<div class="categories">
+							<div><a href="/">Серверы</a></div>
+							<div><a href="/">Системы хранения данных</a></div>
+							<div><a href="/">Программное обеспечение</a></div>
+							<div><a href="/">VoIP оборудование</a></div>
+							<div><a href="/">SFP рессиверы</a></div>
+							<div><a href="/">Ethernet коммутаторы</a></div>
+							<div><a href="/">Маршрутизаторы</a></div>
+							<div><a href="/">Беспроводной доступ</a></div>
+						</div>
+
+						<div class="data">
+							<div class="info">
+								<div class="title">Оборудование из реестра Минпромторг</div>
+
+								<div class="image">
+									<img src="images/first_section_img.png" alt="">
+								</div>
+
+								<button class="btn modal_btn" data-content="#get_price_list_modal">Запросить прайс-лист</button>
+
+								<div class="logos">
+									<img src="images/first_section_logos.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="products">
+					<div class="cont">
+						<div class="block_title">Наши клиенты выбирают</div>
+
+						<div class="row">
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="name">Сервер Аквариус T40 S25</div>
+
+								<div class="short_name">
+									<a href="/">Аквариус T40 S25</a>
+
+									<button class="copy_btn" data-clipboard-text="Аквариус T40 S25">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_copy"></use></svg>
+
+										<div class="copy_success">Скопировано</div>
+									</button>
+								</div>
+
+								<div class="desc">В стойку 1U</div>
+
+								<div class="features">
+									<div>CPU: 2, XEON E5-2600v3</div>
+									<div>до 1 ТБ памяти ЕСС REG</div>
+									<div>до 8 SATA3 / SAS3 горячая замена</div>
+								</div>
+
+								<div class="btns">
+									<button class="favorite_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+									</button>
+
+									<button class="compare_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+									</button>
+
+									<button class="buy_btn modal_btn" data-content="#order_modal">Заказать</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="name">Сервер Аквариус T40 S25</div>
+
+								<div class="short_name">
+									<a href="/">Аквариус T40 S25</a>
+
+									<button class="copy_btn" data-clipboard-text="Аквариус T40 S25">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_copy"></use></svg>
+
+										<div class="copy_success">Скопировано</div>
+									</button>
+								</div>
+
+								<div class="desc">В стойку 1U</div>
+
+								<div class="features">
+									<div>CPU: 2, XEON E5-2600v3</div>
+									<div>до 1 ТБ памяти ЕСС REG</div>
+									<div>до 8 SATA3 / SAS3 горячая замена</div>
+								</div>
+
+								<div class="btns">
+									<button class="favorite_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+									</button>
+
+									<button class="compare_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+									</button>
+
+									<button class="buy_btn modal_btn" data-content="#order_modal">Заказать</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="name">Сервер Аквариус T40 S25</div>
+
+								<div class="short_name">
+									<a href="/">Аквариус T40 S25</a>
+
+									<button class="copy_btn" data-clipboard-text="Аквариус T40 S25">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_copy"></use></svg>
+
+										<div class="copy_success">Скопировано</div>
+									</button>
+								</div>
+
+								<div class="desc">В стойку 1U</div>
+
+								<div class="features">
+									<div>CPU: 2, XEON E5-2600v3</div>
+									<div>до 1 ТБ памяти ЕСС REG</div>
+									<div>до 8 SATA3 / SAS3 горячая замена</div>
+								</div>
+
+								<div class="btns">
+									<button class="favorite_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+									</button>
+
+									<button class="compare_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+									</button>
+
+									<button class="buy_btn modal_btn" data-content="#order_modal">Заказать</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="name">Сервер Аквариус T40 S25</div>
+
+								<div class="short_name">
+									<a href="/">Аквариус T40 S25</a>
+
+									<button class="copy_btn" data-clipboard-text="Аквариус T40 S25">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_copy"></use></svg>
+
+										<div class="copy_success">Скопировано</div>
+									</button>
+								</div>
+
+								<div class="desc">В стойку 1U</div>
+
+								<div class="features">
+									<div>CPU: 2, XEON E5-2600v3</div>
+									<div>до 1 ТБ памяти ЕСС REG</div>
+									<div>до 8 SATA3 / SAS3 горячая замена</div>
+								</div>
+
+								<div class="btns">
+									<button class="favorite_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+									</button>
+
+									<button class="compare_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+									</button>
+
+									<button class="buy_btn modal_btn" data-content="#order_modal">Заказать</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="name">Сервер Аквариус T40 S25</div>
+
+								<div class="short_name">
+									<a href="/">Аквариус T40 S25</a>
+
+									<button class="copy_btn" data-clipboard-text="Аквариус T40 S25">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_copy"></use></svg>
+
+										<div class="copy_success">Скопировано</div>
+									</button>
+								</div>
+
+								<div class="desc">В стойку 1U</div>
+
+								<div class="features">
+									<div>CPU: 2, XEON E5-2600v3</div>
+									<div>до 1 ТБ памяти ЕСС REG</div>
+									<div>до 8 SATA3 / SAS3 горячая замена</div>
+								</div>
+
+								<div class="btns">
+									<button class="favorite_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+									</button>
+
+									<button class="compare_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+									</button>
+
+									<button class="buy_btn modal_btn" data-content="#order_modal">Заказать</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="name">Сервер Аквариус T40 S25</div>
+
+								<div class="short_name">
+									<a href="/">Аквариус T40 S25</a>
+
+									<button class="copy_btn" data-clipboard-text="Аквариус T40 S25">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_copy"></use></svg>
+
+										<div class="copy_success">Скопировано</div>
+									</button>
+								</div>
+
+								<div class="desc">В стойку 1U</div>
+
+								<div class="features">
+									<div>CPU: 2, XEON E5-2600v3</div>
+									<div>до 1 ТБ памяти ЕСС REG</div>
+									<div>до 8 SATA3 / SAS3 горячая замена</div>
+								</div>
+
+								<div class="btns">
+									<button class="favorite_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+									</button>
+
+									<button class="compare_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+									</button>
+
+									<button class="buy_btn modal_btn" data-content="#order_modal">Заказать</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="name">Сервер Аквариус T40 S25</div>
+
+								<div class="short_name">
+									<a href="/">Аквариус T40 S25</a>
+
+									<button class="copy_btn" data-clipboard-text="Аквариус T40 S25">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_copy"></use></svg>
+
+										<div class="copy_success">Скопировано</div>
+									</button>
+								</div>
+
+								<div class="desc">В стойку 1U</div>
+
+								<div class="features">
+									<div>CPU: 2, XEON E5-2600v3</div>
+									<div>до 1 ТБ памяти ЕСС REG</div>
+									<div>до 8 SATA3 / SAS3 горячая замена</div>
+								</div>
+
+								<div class="btns">
+									<button class="favorite_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+									</button>
+
+									<button class="compare_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+									</button>
+
+									<button class="buy_btn modal_btn" data-content="#order_modal">Заказать</button>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="name">Сервер Аквариус T40 S25</div>
+
+								<div class="short_name">
+									<a href="/">Аквариус T40 S25</a>
+
+									<button class="copy_btn" data-clipboard-text="Аквариус T40 S25">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_copy"></use></svg>
+
+										<div class="copy_success">Скопировано</div>
+									</button>
+								</div>
+
+								<div class="desc">В стойку 1U</div>
+
+								<div class="features">
+									<div>CPU: 2, XEON E5-2600v3</div>
+									<div>до 1 ТБ памяти ЕСС REG</div>
+									<div>до 8 SATA3 / SAS3 горячая замена</div>
+								</div>
+
+								<div class="btns">
+									<button class="favorite_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+									</button>
+
+									<button class="compare_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+									</button>
+
+									<button class="buy_btn modal_btn" data-content="#order_modal">Заказать</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="videos">
+					<div class="cont">
+						<div class="block_title">Видео</div>
+
+						<div class="row">
+							<a href="https://www.youtube.com/watch?v=6rn2fMLfLvY" data-fancybox class="video">
+								<div class="time">31 мин., 03.09.2021</div>
+
+								<div class="thumb">
+									<img data-src="images/tmp/video_thumb.jpg" alt="" class="lozad">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_video_play"></use></svg>
+								</div>
+
+								<div class="name">Ролик о компании AQUARIUS</div>
+							</a>
+
+							<a href="https://www.youtube.com/watch?v=6rn2fMLfLvY" data-fancybox class="video">
+								<div class="time">31 мин., 03.09.2021</div>
+
+								<div class="thumb">
+									<img data-src="images/tmp/video_thumb2.jpg" alt="" class="lozad">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_video_play"></use></svg>
+								</div>
+
+								<div class="name">Выпущен 250 000 Сервер AQUARIUS </div>
+							</a>
+
+							<a href="https://www.youtube.com/watch?v=6rn2fMLfLvY" data-fancybox class="video">
+								<div class="time">31 мин., 03.09.2021</div>
+
+								<div class="thumb">
+									<img data-src="images/tmp/video_thumb3.jpg" alt="" class="lozad">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_video_play"></use></svg>
+								</div>
+
+								<div class="name">Серверная плата собственной разработки</div>
+							</a>
+						</div>
+
+						<div class="all_link">
+							<a href="/">Все видео</a>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="about">
+					<div class="cont row">
+						<div class="block_title">О компании</div>
+
+						<div class="text_block">
+							<p>Все представленное оборудование включено в реестр <b>Российской радиоэлектронной продукции</b>, программное обеспечение включено в <b>Единый реестр российских программ</b> для электронных вычислительных машин и баз данных.</p>
+
+							<p>Мы накопили большой опыт выполнения поставок государственным компания и компаниям с гос участием (Росгвардия, МВД, ФСБ, Газпром и многие другие), работаем с 44, 223 и 275 ФЗ.</p>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="articles">
+					<div class="cont">
+						<div class="block_title">Новости</div>
+
+						<div class="row">
+							<a href="/" class="article">
+								<div class="thumb">
+									<img data-src="images/tmp/article_thumb.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="name">Компания РуИТС заключила соглашение о партнёрстве с DEPO Computers и Axoft</div>
+
+								<div class="date">26.08.2021</div>
+							</a>
+
+							<a href="/" class="article">
+								<div class="thumb">
+									<img data-src="images/tmp/article_thumb2.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="name">Компания РуИТС заключила соглашение о партнёрстве с DEPO Computers и Axoft</div>
+
+								<div class="date">26.08.2021</div>
+							</a>
+
+							<a href="/" class="article">
+								<div class="thumb">
+									<img data-src="images/tmp/article_thumb3.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="name">Компания РуИТС заключила соглашение о партнёрстве с DEPO Computers и Axoft</div>
+
+								<div class="date">26.08.2021</div>
+							</a>
+						</div>
+
+						<div class="all_link">
+							<a href="/">Все новости</a>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="info">
+					<div class="cont row">
+						<div class="col_left">
+							<div class="logo">
+								<img src="images/logo2.svg" alt="">
+							</div>
+
+							<div class="links">
+								<div><a href="/">Политика конфиденциальности</a></div>
+								<div><a href="/">Политика обработки персональных данных</a></div>
+							</div>
+						</div>
+
+
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:84996477105">8 (499) 647 71 05</a>
+							</div>
+
+							<div class="email">
+								<a href="mailto:sales@ruits.ru">sales@ruits.ru</a>
+							</div>
+
+							<div class="messengers">
+								<a href="/" class="whatsapp_link">
+									<img src="images/ic_whatsapp.png" alt="">
+								</a>
+
+								<a href="/" class="telegram_link">
+									<img src="images/ic_telegram.svg" alt="">
+								</a>
+							</div>
+
+							<div class="location">
+								<div class="city">г. Москва</div>
+								<div class="address">ул. Правды 8, к 27 офис 201</div>
+							</div>
+
+							<div class="location">
+								<div class="city">г. Новосибирск</div>
+								<div class="address">ул. Красный проспект 163/2, офис 308</div>
+							</div>
+						</div>
+
+						<div class="menu">
+							<div><a href="/">Коммутаторы</a></div>
+							<div><a href="/">Серверы</a></div>
+							<div><a href="/">Системы хранения данных</a></div>
+							<div><a href="/">Беспроводной доступ</a></div>
+							<div><a href="/">Маршрутизаторы</a></div>
+							<div><a href="/">SFP модули</a></div>
+							<div><a href="/">IP АТС</a></div>
+							<div><a href="/">Транковые шлюзы</a></div>
+						</div>
+
+						<div class="subscribe">
+							<div class="title">Получать первыми рассылку о новинках</div>
+
+							<form action="">
+								<div class="row">
+									<input type="email" name="" value="" class="input" placeholder="E-mail">
+
+									<button type="submit" class="submit_btn">Подписаться</button>
+								</div>
+
+								<div class="agree">
+									<input type="checkbox" name="agree" id="subscribe_agree">
+									<label for="subscribe_agree">
+										Я принимаю <a href="/" target="_blank">политику обработки персональных данных</a>
+									</label>
+								</div>
+							</form>
+						</div>
+
+						<div class="exp">Вся представленная информация на сайте, касающаяся технических характеристик, наличия на складе, стоимости товаров и т.д., носит информационный характер и ни при каких условиях не является публичной офертой</div>
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont">
+						<div class="copyright">&copy; ruits 2021</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="order_modal">
+			<div class="modal_title">Заказать в 1 клик</div>
+
+			<div class="modal_data">
+				<div class="product">
+					<div class="thumb">
+						<img data-src="images/tmp/modal_product_thumb.jpg" alt="" class="lozad">
+					</div>
+
+					<div>
+						<div class="name">Сервер DEPO Storm 3450F2R</div>
+
+						<div class="desc">Intel® Xeon® Bronze 3204 [6 ядер, 6 потоков, 1.9 ГГц, 8.25 МБ кэш, 85 Вт]</div>
+					</div>
+				</div>
+
+
+				<form action="" class="form">
+					<div class="cols">
+						<div class="col">
+							<div class="line">
+								<div class="field">
+									<input type="tel" name="" value="" class="input" placeholder="Телефон">
+								</div>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="line file">
+								<div class="field">
+									<input type="file" name="file" id="file2">
+									<label for="file2">
+										<div>Загрузите своё ТЗ или спецификацию</div>
+
+										<div class="btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_file"></use></svg>
+											<span>Загрузить файлы</span>
+										</div>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="line agree center">
+						<div class="field">
+							<input type="checkbox" name="agree" id="order_agree_check">
+							<label for="order_agree_check">
+								Я ознакомлен и согласен с <a href="/" target="_blank">политикой конфиденциальности</a>
+							</label>
+						</div>
+					</div>
+
+					<div class="submit no_pad center">
+						<button type="submit" class="submit_btn">Отправить</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="modal" id="get_price_list_modal">
+			<div class="modal_title">Отправить заявку<br> на прайс-лист 2021</div>
+
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input" placeholder="Телефон">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input" placeholder="E-mail">
+						</div>
+					</div>
+
+					<div class="line agree no_pad">
+						<div class="field">
+							<input type="checkbox" name="agree" id="price_list_agree_check">
+							<label for="price_list_agree_check">
+								Я ознакомлен и согласен с <a href="/" target="_blank">политикой конфиденциальности</a>
+							</label>
+						</div>
+					</div>
+
+					<div class="submit no_pad">
+						<button type="submit" class="submit_btn">Отправить</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="modal success_modal" id="get_price_list_success_modal">
+			<div class="modal_title"> Спасибо, Ваш запрос получен</div>
+
+			<div class="modal_desc">Скоро отправим Вам прайс-лист</div>
+		</section>
+
+
+		<section class="modal success_modal" id="order_success_modal">
+			<div class="modal_title">Спасибо, Ваш заказ получен</div>
+
+			<div class="modal_desc">Скоро ответим Вам по заказу</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/clipboard.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

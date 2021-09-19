@@ -1,0 +1,566 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 100%;
+        --font_size: 15px;
+        --font_size_title: 28px;
+    }
+
+
+    .content_flex .content
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        left: 0;
+
+        width: 310px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+
+        transition: transform .3s linear;
+        transform: translateX(-100%);
+
+        background: #fff;
+        box-shadow: none;
+    }
+
+    header.show
+    {
+        transform: translateX(0);
+    }
+
+
+    header .mob_scroll
+    {
+        display: flex;
+        overflow: auto;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 0;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    header .mob_scroll > *
+    {
+        width: 100%;
+    }
+
+
+
+    header .info
+    {
+        padding: 20px 0;
+
+        order: 2;
+    }
+
+
+    header .bottom
+    {
+        padding: 20px 0;
+    }
+
+
+    header .logo,
+    header .location,
+    header .cart,
+    header .search
+    {
+        display: none;
+    }
+
+
+    header .location,
+    header .contacts,
+    header .email,
+    header .cart
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    header .contacts .phone
+    {
+        font-size: 14px;
+    }
+
+
+    header .email
+    {
+        margin-top: 6px;
+    }
+
+    header .email .icon
+    {
+        width: 18px;
+        height: 13px;
+    }
+
+
+    header .catalog .btn
+    {
+        line-height: 22px;
+    }
+
+
+    header .catalog .mini_modal,
+    header .catalog .mini_modal.active
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        display: none;
+
+        width: calc(100% + 48px);
+        min-height: 0;
+        margin: 8px -24px;
+        padding: 20px 24px 24px;
+    }
+
+    header .catalog .mini_modal.active
+    {
+        display: block;
+    }
+
+
+    header .catalog .mini_modal .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    header .catalog .mini_modal .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    header .catalog .mini_modal .title
+    {
+        margin-bottom: 8px;
+    }
+
+
+    header .menu
+    {
+        display: block;
+
+        width: 100%;
+        margin: 12px 0 0;
+    }
+
+    header .menu .item + .item
+    {
+        margin-top: 8px;
+        margin-left: 0;
+    }
+
+    header .menu .item > a
+    {
+        transition: color .2s linear;
+    }
+
+    header .menu .item > a:after
+    {
+        display: none;
+    }
+
+    header .menu .item > a:hover
+    {
+        color: #1867c0;
+    }
+
+
+    header .email .copy_success
+    {
+        top: calc(100% + 8px);
+        right: auto;
+        left: 0;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    aside .mob_filter_btn,
+    aside .mob_categories_btn,
+    aside .mob_tags_btn
+    {
+        display: block;
+    }
+
+
+    aside .filter,
+    aside .selected_filter,
+    aside .categories,
+    aside .tags,
+    aside .catalog
+    {
+        display: none;
+
+        margin-top: 12px;
+    }
+
+
+
+    aside .tags
+    {
+        padding: 0;
+    }
+
+    aside .tags > *.margin
+    {
+        margin-top: 24px;
+    }
+
+
+    aside .catalog
+    {
+        padding: 12px 0;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .breadcrumbs
+    {
+        margin-bottom: 16px;
+        padding: 0;
+    }
+
+    .breadcrumbs .sep
+    {
+        margin: 0 8px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
+    .text_block > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .categories
+    {
+        display: none;
+    }
+
+
+    .first_section .data
+    {
+        width: 100%;
+        min-height: 0;
+    }
+
+    .first_section .data .title
+    {
+        font-size: 24px;
+    }
+
+    .first_section .data .link
+    {
+        font-size: 16px;
+
+        margin-top: 28px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .block_title
+    {
+        font-size: 22px;
+
+        padding-left: 20px;
+    }
+
+
+    .products .row,
+    .content .products .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .products .row > *,
+    .content .products .row > *
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .products .row .product,
+    .content .products .row .product
+    {
+        padding: 20px;
+    }
+
+    .products .row .product .thumb
+    {
+        height: 124px;
+        margin-bottom: 16px;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos
+    {
+        padding: 52px 0;
+    }
+
+
+    .videos .block_title
+    {
+        font-size: 22px;
+
+        padding-left: 20px;
+    }
+
+
+    .videos .row .video .thumb .icon
+    {
+        width: 52px;
+        height: 37px;
+    }
+
+
+    .videos .list .video .thumb .icon
+    {
+        width: 52px;
+        height: 37px;
+    }
+
+
+
+    /*-----------
+        About
+    -----------*/
+    .about
+    {
+        padding: 60px 0;
+    }
+
+
+    .about .block_title
+    {
+        font-size: 26px;
+
+        margin-left: 20px;
+    }
+
+
+    .about .text_block
+    {
+        width: calc(100% - 240px);
+        margin-right: 0;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        padding: 52px 0;
+    }
+
+
+    .articles .block_title
+    {
+        font-size: 22px;
+
+        padding-left: 20px;
+    }
+
+
+    .articles .row .article .thumb
+    {
+        margin-bottom: 16px;
+    }
+
+    .articles .row .article .name
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .articles .row .article .date
+    {
+        margin-top: 12px;
+    }
+
+
+
+    .articles .list .article .name
+    {
+        max-width: calc(100% - 175px);
+        margin-left: 24px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info
+    {
+        padding: 24px;
+    }
+
+
+    .product_info .product_name
+    {
+        font-size: 24px;
+
+        max-width: calc(100% - 40px);
+    }
+
+
+    .product_info .head .copy_btn
+    {
+        margin-left: 16px;
+    }
+
+    .product_info .head .copy_btn .icon
+    {
+        width: 24px;
+        height: 19px;
+    }
+
+
+    .product_info .data .short_name .copy_btn
+    {
+        margin-left: 12px;
+    }
+
+
+    .product_info .data .buy_btn
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .menu
+    {
+        display: none;
+    }
+
+
+    footer .subscribe .input
+    {
+        font-size: 14px;
+
+        width: 152px;
+    }
+
+    footer .subscribe .submit_btn
+    {
+        font-size: 14px;
+
+        width: 124px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

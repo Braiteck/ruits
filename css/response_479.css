@@ -1,0 +1,497 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-bottom: 8px;
+    }
+
+    .tabs button
+    {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .contacts
+    {
+        display: none;
+    }
+
+
+    .mob_header .search
+    {
+        padding: 12px 24px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        padding: 24px;
+    }
+
+    .first_section .data .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-------------------
+        Products head
+    -------------------*/
+    .products_head .price_list .input
+    {
+        width: 100%;
+    }
+
+
+    .products_head .price_list .agree
+    {
+        width: 156px;
+        margin-top: 8px;
+        margin-left: 0;
+    }
+
+    .products_head .price_list label
+    {
+        padding-left: 28px;
+    }
+
+
+    .products_head .price_list .submit_btn
+    {
+        width: calc(100% - 176px);
+        margin-top: 10px;
+        margin-left: auto;
+    }
+
+
+
+    .products_head .search_head
+    {
+        margin-top: 20px;
+    }
+
+
+
+    .page_title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .block_title
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .products .row,
+    .content .products .row
+    {
+        margin-bottom: -28px;
+        margin-left: -12px;
+    }
+
+    .products .row > *,
+    .content .products .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 28px;
+        margin-left: 12px;
+    }
+
+
+    .products .row .product .thumb
+    {
+        height: 100px;
+        margin-bottom: 12px;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .block_title
+    {
+        font-size: 20px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .videos .row
+    {
+        margin-bottom: -32px;
+        margin-left: 0;
+    }
+
+    .videos .row > *
+    {
+        width: 100%;
+        margin-bottom: 32px;
+        margin-left: 0;
+    }
+
+
+    .videos .row .video .icon
+    {
+        width: 72px;
+        height: 51px;
+    }
+
+
+    .videos .list .video
+    {
+        padding: 15px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .block_title
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .articles .row
+    {
+        margin-bottom: -32px;
+        margin-left: 0;
+    }
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-bottom: 32px;
+        margin-left: 0;
+    }
+
+
+    .articles .row .article .name
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .articles .list .article .thumb
+    {
+        order: 1;
+    }
+
+    .articles .list .article .name
+    {
+        width: calc(100% - 84px);
+        max-width: calc(100% - 84px);
+        margin-top: -2px;
+        margin-left: auto;
+
+        order: 2;
+    }
+
+    .articles .list .article .info
+    {
+        display: flex;
+
+        width: 100%;
+        margin-top: 8px;
+        margin-left: 0;
+        padding-left: 84px;
+
+        order: 3;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+
+
+    .product_info .head .product_name
+    {
+        font-size: 21px;
+    }
+
+
+    .product_info .head .copy_btn .copy_success
+    {
+        right: -24px;
+        left: auto;
+    }
+
+
+    .product_info .head .sticker .flag
+    {
+        width: 20px;
+        height: 14px;
+        margin-left: 4px;
+    }
+
+    .product_info .head .sticker .extract_registry_link
+    {
+        line-height: 14px;
+
+        margin-left: auto;
+        padding-right: 12px;
+    }
+
+
+    .product_info .images
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .product_info .images .thumbs
+    {
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .product_info .images .thumbs > *
+    {
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+    .product_info .images .thumbs button
+    {
+        width: 60px;
+        height: 52px;
+        padding: 2px;
+    }
+
+    .product_info .images .thumbs button.video_btn
+    {
+        width: 106px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .contacts_info .data > * + *
+    {
+        margin-top: 4px;
+    }
+
+
+
+    .contacts_info .staff .block_title
+    {
+        font-size: 22px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .contacts_info .staff .person .photo
+    {
+        width: 76px;
+        height: 76px;
+    }
+
+    .contacts_info .staff .person .photo + div
+    {
+        width: calc(100% - 92px);
+    }
+
+
+    .contacts_info .staff .person .name
+    {
+        font-size: 18px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .contacts_info .staff .person .contacts
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .contacts_info .staff .person .contacts > * + *
+    {
+        margin-top: 0;
+    }
+
+    .contacts_info .staff .person .contacts b
+    {
+        margin-right: 4px;
+    }
+
+    .contacts_info .staff .person .contacts .messengers
+    {
+        margin-left: 5px;
+    }
+
+    .contacts_info .staff .person .contacts .messengers a + a
+    {
+        margin-left: 2px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .gallery .row
+    {
+        margin-bottom: -12px;
+        margin-left: 0;
+    }
+
+    .about_info .gallery .row > *
+    {
+        width: 100%;
+        margin-bottom: 12px;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Licenses
+    --------------*/
+    .content .licenses .row
+    {
+        margin-left: -20px;
+    }
+
+    .licenses .row > *
+    {
+        width: calc(50% - 20px);
+        margin-left: 20px;
+    }
+
+
+
+    /*----------------
+        Requisites
+    ----------------*/
+    .requisites .section + .section
+    {
+        margin-top: 28px;
+    }
+
+
+    .requisites .item + .item
+    {
+        margin-top: 8px;
+    }
+
+    .requisites .item .name
+    {
+        width: 108px;
+    }
+
+    .requisites .item .val
+    {
+        width: calc(100% - 108px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 32px;
+    }
+}
